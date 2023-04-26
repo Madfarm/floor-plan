@@ -1,11 +1,14 @@
 
+import './Bedroom.css'
+
+
 type BedroomProps = {
     bedNum: number
 }
 
 export default function Bedroom({ bedNum }: BedroomProps){
     return (
-        <div>
+        <div id={`bedroom-${bedNum}`}>
             <p>Bedroom {bedNum}</p>
         </div>
     )

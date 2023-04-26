@@ -6,7 +6,7 @@ type BathTypes = {
 export default function Bath( { size }: BathTypes) {
     return (
         <div>
-            <p>{size} Bath</p>
+            <p>{size}-Bath</p>
         </div>
     )
 }

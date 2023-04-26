@@ -3,6 +3,7 @@ import Bath from "./Bath/Bath"
 import Bedroom from "./Bedroom/Bedroom";
 import Kitchen from "./Kitchen/Kitchen";
 import LivingRoom from "./LivingRoom/LivingRoom";
+import './FloorPlan.css'
 
 export default function FloorPlan() {
     let totalBedrooms: number = 3;
@@ -13,7 +14,7 @@ export default function FloorPlan() {
     }
 
     return (
-        <div>
+        <div className="FloorPlan">
             <Bath size="Full" />
             {bedrooms}
             <LivingRoom />

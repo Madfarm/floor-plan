@@ -1,3 +1,6 @@
+
+import './Bath.css'
+
 type BathTypes = {
     size: string
 }
@@ -5,7 +8,7 @@ type BathTypes = {
 
 export default function Bath( { size }: BathTypes) {
     return (
-        <div>
+        <div id={`bath-${size}`}>
             <p>{size}-Bath</p>
         </div>
     )

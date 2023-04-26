@@ -2,6 +2,7 @@ import React from "react";
 import Bath from "./Bath/Bath"
 import Bedroom from "./Bedroom/Bedroom";
 import Kitchen from "./Kitchen/Kitchen";
+import LivingRoom from "./LivingRoom/LivingRoom";
 
 export default function FloorPlan() {
     let totalBedrooms: number = 3;
@@ -15,6 +16,7 @@ export default function FloorPlan() {
         <div>
             <Bath size="Full" />
             {bedrooms}
+            <LivingRoom />
             <Kitchen />
             <Bath size="Half" />
         </div>
